@@ -12,11 +12,25 @@ ROOT = Path(__file__).resolve().parent
 
 def render(mode, size, data):
     colors = theme(mode)
+    if size == "mini":
+        return _mini(mode, colors, data)
     if size == "compact":
         return _compact(mode, colors, data)
     if size == "wide":
         return _list(mode, colors, data, 896, True)
     return _list(mode, colors, data, 495, False)
+
+
+def _mini(mode, colors, data):
+    repo, stars = data["repos"][0]
+    name, _ = dots("REPOS", 28, 12, colors["fg"], scale=1.15)
+    return "\n".join([
+        open_svg(mode, 220, 148, f"{data['login']} repositories", mark=6, margin=14),
+        name,
+        label(16, 100, repo, colors["fg"], 16, 0),
+        label(16, 124, f"{stars} stars", colors["muted"], 12, 0.2),
+        "</svg>",
+    ])
 
 
 def _compact(mode, colors, data):
@@ -51,6 +65,18 @@ def _list(mode, colors, data, width, bars):
     return "\n".join(parts)
 
 
+def _variant(card, login, mode, size, filename):
+    url = f"https://github.com/itsrealkaran/{card}?username={login}&theme={mode}&size={size}"
+    return [
+        f"**{card}** · {mode} · {size}",
+        "",
+        f"`{url}`",
+        "",
+        f"![{card} {mode} {size}](dist/{login}/{filename})",
+        "",
+    ]
+
+
 def main():
     login = sys.argv[1] if len(sys.argv) > 1 else "itsrealkaran"
     data = public_repos(login)
@@ -63,7 +89,7 @@ def main():
         for size in SIZES:
             filename = f"{mode}-{size}.svg"
             (out / filename).write_text(render(mode, size, data))
-            lines += [f"### {size}", "", f"![{mode} {size}](dist/{login}/{filename})", ""]
+            lines += _variant("repos", login, mode, size, filename)
             print(login, mode, size)
     (ROOT / "DUMMY.md").write_text("\n".join(lines) + "\n")
 
