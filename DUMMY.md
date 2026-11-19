@@ -4,113 +4,209 @@ Compact is the top repository. Regular is the list. Wide adds the bars.
 
 ## classic
 
-### compact
+**repos** · classic · mini
 
-![classic compact](dist/itsrealkaran/classic-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic&size=mini`
 
-### regular
+![repos classic mini](dist/itsrealkaran/classic-mini.svg)
 
-![classic regular](dist/itsrealkaran/classic-regular.svg)
+**repos** · classic · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic&size=compact`
 
-![classic wide](dist/itsrealkaran/classic-wide.svg)
+![repos classic compact](dist/itsrealkaran/classic-compact.svg)
+
+**repos** · classic · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic&size=regular`
+
+![repos classic regular](dist/itsrealkaran/classic-regular.svg)
+
+**repos** · classic · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic&size=wide`
+
+![repos classic wide](dist/itsrealkaran/classic-wide.svg)
 
 ## classic-r
 
-### compact
+**repos** · classic-r · mini
 
-![classic-r compact](dist/itsrealkaran/classic-r-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic-r&size=mini`
 
-### regular
+![repos classic-r mini](dist/itsrealkaran/classic-r-mini.svg)
 
-![classic-r regular](dist/itsrealkaran/classic-r-regular.svg)
+**repos** · classic-r · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic-r&size=compact`
 
-![classic-r wide](dist/itsrealkaran/classic-r-wide.svg)
+![repos classic-r compact](dist/itsrealkaran/classic-r-compact.svg)
+
+**repos** · classic-r · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic-r&size=regular`
+
+![repos classic-r regular](dist/itsrealkaran/classic-r-regular.svg)
+
+**repos** · classic-r · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=classic-r&size=wide`
+
+![repos classic-r wide](dist/itsrealkaran/classic-r-wide.svg)
 
 ## white
 
-### compact
+**repos** · white · mini
 
-![white compact](dist/itsrealkaran/white-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white&size=mini`
 
-### regular
+![repos white mini](dist/itsrealkaran/white-mini.svg)
 
-![white regular](dist/itsrealkaran/white-regular.svg)
+**repos** · white · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white&size=compact`
 
-![white wide](dist/itsrealkaran/white-wide.svg)
+![repos white compact](dist/itsrealkaran/white-compact.svg)
+
+**repos** · white · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white&size=regular`
+
+![repos white regular](dist/itsrealkaran/white-regular.svg)
+
+**repos** · white · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white&size=wide`
+
+![repos white wide](dist/itsrealkaran/white-wide.svg)
 
 ## white-r
 
-### compact
+**repos** · white-r · mini
 
-![white-r compact](dist/itsrealkaran/white-r-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white-r&size=mini`
 
-### regular
+![repos white-r mini](dist/itsrealkaran/white-r-mini.svg)
 
-![white-r regular](dist/itsrealkaran/white-r-regular.svg)
+**repos** · white-r · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white-r&size=compact`
 
-![white-r wide](dist/itsrealkaran/white-r-wide.svg)
+![repos white-r compact](dist/itsrealkaran/white-r-compact.svg)
+
+**repos** · white-r · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white-r&size=regular`
+
+![repos white-r regular](dist/itsrealkaran/white-r-regular.svg)
+
+**repos** · white-r · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=white-r&size=wide`
+
+![repos white-r wide](dist/itsrealkaran/white-r-wide.svg)
 
 ## light
 
-### compact
+**repos** · light · mini
 
-![light compact](dist/itsrealkaran/light-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=light&size=mini`
 
-### regular
+![repos light mini](dist/itsrealkaran/light-mini.svg)
 
-![light regular](dist/itsrealkaran/light-regular.svg)
+**repos** · light · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=light&size=compact`
 
-![light wide](dist/itsrealkaran/light-wide.svg)
+![repos light compact](dist/itsrealkaran/light-compact.svg)
+
+**repos** · light · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=light&size=regular`
+
+![repos light regular](dist/itsrealkaran/light-regular.svg)
+
+**repos** · light · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=light&size=wide`
+
+![repos light wide](dist/itsrealkaran/light-wide.svg)
 
 ## red
 
-### compact
+**repos** · red · mini
 
-![red compact](dist/itsrealkaran/red-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=red&size=mini`
 
-### regular
+![repos red mini](dist/itsrealkaran/red-mini.svg)
 
-![red regular](dist/itsrealkaran/red-regular.svg)
+**repos** · red · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=red&size=compact`
 
-![red wide](dist/itsrealkaran/red-wide.svg)
+![repos red compact](dist/itsrealkaran/red-compact.svg)
+
+**repos** · red · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=red&size=regular`
+
+![repos red regular](dist/itsrealkaran/red-regular.svg)
+
+**repos** · red · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=red&size=wide`
+
+![repos red wide](dist/itsrealkaran/red-wide.svg)
 
 ## blue
 
-### compact
+**repos** · blue · mini
 
-![blue compact](dist/itsrealkaran/blue-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=blue&size=mini`
 
-### regular
+![repos blue mini](dist/itsrealkaran/blue-mini.svg)
 
-![blue regular](dist/itsrealkaran/blue-regular.svg)
+**repos** · blue · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=blue&size=compact`
 
-![blue wide](dist/itsrealkaran/blue-wide.svg)
+![repos blue compact](dist/itsrealkaran/blue-compact.svg)
+
+**repos** · blue · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=blue&size=regular`
+
+![repos blue regular](dist/itsrealkaran/blue-regular.svg)
+
+**repos** · blue · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=blue&size=wide`
+
+![repos blue wide](dist/itsrealkaran/blue-wide.svg)
 
 ## yellow
 
-### compact
+**repos** · yellow · mini
 
-![yellow compact](dist/itsrealkaran/yellow-compact.svg)
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=yellow&size=mini`
 
-### regular
+![repos yellow mini](dist/itsrealkaran/yellow-mini.svg)
 
-![yellow regular](dist/itsrealkaran/yellow-regular.svg)
+**repos** · yellow · compact
 
-### wide
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=yellow&size=compact`
 
-![yellow wide](dist/itsrealkaran/yellow-wide.svg)
+![repos yellow compact](dist/itsrealkaran/yellow-compact.svg)
+
+**repos** · yellow · regular
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=yellow&size=regular`
+
+![repos yellow regular](dist/itsrealkaran/yellow-regular.svg)
+
+**repos** · yellow · wide
+
+`https://github.com/itsrealkaran/repos?username=itsrealkaran&theme=yellow&size=wide`
+
+![repos yellow wide](dist/itsrealkaran/yellow-wide.svg)
 
