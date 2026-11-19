@@ -21,11 +21,11 @@ An SVG for a GitHub profile. Place the URL in a README, on a site, or anywhere a
 ## Usage
 
 ```text
-https://<host>/repos?username=itsrealkaran
+https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran
 ```
 
 ```md
-![repos](https://<host>/repos?username=itsrealkaran)
+![repos](https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran)
 ```
 
 Leave `theme` and `size` off for the classic regular card. An unknown username, theme, or size still returns an SVG, so the image slot in a README stays intact.
@@ -66,19 +66,19 @@ The files in `dist/` use the theme name, then the size: `classic-regular.svg`.
 
 ## Examples
 
-Previews use `itsrealkaran`. Replace `<host>` with your server.
+Previews use `itsrealkaran`.
 
 ### classic
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=classic&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic&size=mini`
 
 ![repos classic mini](dist/itsrealkaran/classic-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=classic&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic&size=compact`
 
 ![repos classic compact](dist/itsrealkaran/classic-compact.svg)
 
@@ -86,13 +86,13 @@ Previews use `itsrealkaran`. Replace `<host>` with your server.
 
 This is the default. You can leave `theme` and `size` off and get this card.
 
-`https://<host>/repos?username=itsrealkaran&theme=classic&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic&size=regular`
 
 ![repos classic regular](dist/itsrealkaran/classic-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=classic&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic&size=wide`
 
 ![repos classic wide](dist/itsrealkaran/classic-wide.svg)
 
@@ -100,25 +100,25 @@ This is the default. You can leave `theme` and `size` off and get this card.
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=classic-r&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic-r&size=mini`
 
 ![repos classic-r mini](dist/itsrealkaran/classic-r-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=classic-r&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic-r&size=compact`
 
 ![repos classic-r compact](dist/itsrealkaran/classic-r-compact.svg)
 
 #### regular
 
-`https://<host>/repos?username=itsrealkaran&theme=classic-r&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic-r&size=regular`
 
 ![repos classic-r regular](dist/itsrealkaran/classic-r-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=classic-r&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=classic-r&size=wide`
 
 ![repos classic-r wide](dist/itsrealkaran/classic-r-wide.svg)
 
@@ -126,25 +126,25 @@ This is the default. You can leave `theme` and `size` off and get this card.
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=white&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white&size=mini`
 
 ![repos white mini](dist/itsrealkaran/white-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=white&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white&size=compact`
 
 ![repos white compact](dist/itsrealkaran/white-compact.svg)
 
 #### regular
 
-`https://<host>/repos?username=itsrealkaran&theme=white&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white&size=regular`
 
 ![repos white regular](dist/itsrealkaran/white-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=white&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white&size=wide`
 
 ![repos white wide](dist/itsrealkaran/white-wide.svg)
 
@@ -152,25 +152,25 @@ This is the default. You can leave `theme` and `size` off and get this card.
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=white-r&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white-r&size=mini`
 
 ![repos white-r mini](dist/itsrealkaran/white-r-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=white-r&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white-r&size=compact`
 
 ![repos white-r compact](dist/itsrealkaran/white-r-compact.svg)
 
 #### regular
 
-`https://<host>/repos?username=itsrealkaran&theme=white-r&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white-r&size=regular`
 
 ![repos white-r regular](dist/itsrealkaran/white-r-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=white-r&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=white-r&size=wide`
 
 ![repos white-r wide](dist/itsrealkaran/white-r-wide.svg)
 
@@ -178,25 +178,25 @@ This is the default. You can leave `theme` and `size` off and get this card.
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=light&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=light&size=mini`
 
 ![repos light mini](dist/itsrealkaran/light-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=light&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=light&size=compact`
 
 ![repos light compact](dist/itsrealkaran/light-compact.svg)
 
 #### regular
 
-`https://<host>/repos?username=itsrealkaran&theme=light&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=light&size=regular`
 
 ![repos light regular](dist/itsrealkaran/light-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=light&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=light&size=wide`
 
 ![repos light wide](dist/itsrealkaran/light-wide.svg)
 
@@ -204,25 +204,25 @@ This is the default. You can leave `theme` and `size` off and get this card.
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=red&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=red&size=mini`
 
 ![repos red mini](dist/itsrealkaran/red-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=red&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=red&size=compact`
 
 ![repos red compact](dist/itsrealkaran/red-compact.svg)
 
 #### regular
 
-`https://<host>/repos?username=itsrealkaran&theme=red&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=red&size=regular`
 
 ![repos red regular](dist/itsrealkaran/red-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=red&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=red&size=wide`
 
 ![repos red wide](dist/itsrealkaran/red-wide.svg)
 
@@ -230,25 +230,25 @@ This is the default. You can leave `theme` and `size` off and get this card.
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=blue&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=blue&size=mini`
 
 ![repos blue mini](dist/itsrealkaran/blue-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=blue&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=blue&size=compact`
 
 ![repos blue compact](dist/itsrealkaran/blue-compact.svg)
 
 #### regular
 
-`https://<host>/repos?username=itsrealkaran&theme=blue&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=blue&size=regular`
 
 ![repos blue regular](dist/itsrealkaran/blue-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=blue&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=blue&size=wide`
 
 ![repos blue wide](dist/itsrealkaran/blue-wide.svg)
 
@@ -256,25 +256,25 @@ This is the default. You can leave `theme` and `size` off and get this card.
 
 #### mini
 
-`https://<host>/repos?username=itsrealkaran&theme=yellow&size=mini`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=yellow&size=mini`
 
 ![repos yellow mini](dist/itsrealkaran/yellow-mini.svg)
 
 #### compact
 
-`https://<host>/repos?username=itsrealkaran&theme=yellow&size=compact`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=yellow&size=compact`
 
 ![repos yellow compact](dist/itsrealkaran/yellow-compact.svg)
 
 #### regular
 
-`https://<host>/repos?username=itsrealkaran&theme=yellow&size=regular`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=yellow&size=regular`
 
 ![repos yellow regular](dist/itsrealkaran/yellow-regular.svg)
 
 #### wide
 
-`https://<host>/repos?username=itsrealkaran&theme=yellow&size=wide`
+`https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran&theme=yellow&size=wide`
 
 ![repos yellow wide](dist/itsrealkaran/yellow-wide.svg)
 
@@ -326,9 +326,9 @@ Fork this repo for your own host. Your copy stays awake if a shared deploy sleep
 1. Fork the repo.
 2. Deploy the Dockerfile on Fly, Railway, Render, Cloud Run, or a virtual machine. Or deploy `server.js` on Vercel or Netlify.
 3. Set the variables below as secrets. Do not commit them.
-4. Open `https://<your-host>/repos?username=yourname`.
+4. Open `https://github.com/itsrealkaran/nothing-github-repos?username=yourname`.
 
-Use that host in the image URL. The path and the query stay the same.
+Use that address in the image URL. The query stays the same.
 
 ## Configuration
 
