@@ -40,11 +40,13 @@ def _list(mode, colors, data, width, bars):
     for index, (repo, stars) in enumerate(rows):
         y = 78 + index * 30
         parts.append(label(20, y, repo, colors["fg"], 15, 0.1))
-        parts.append(label(width - 56, y, str(stars), colors["figure"], 15, 0.2))
         if bars:
-            bar = max(4, 280 * (stars / peak))
-            parts.append(f'<rect x="260" y="{y - 11}" width="280" height="6" fill="{colors["rule"]}"/>')
-            parts.append(f'<rect x="260" y="{y - 11}" width="{bar:.1f}" height="6" fill="{colors["figure"]}"/>')
+            bar = max(4, 460 * (stars / peak))
+            parts.append(f'<rect x="280" y="{y - 11}" width="460" height="6" fill="{colors["rule"]}"/>')
+            parts.append(f'<rect x="280" y="{y - 11}" width="{bar:.1f}" height="6" fill="{colors["figure"]}"/>')
+            parts.append(label(760, y, str(stars), colors["figure"], 15, 0.2))
+        else:
+            parts.append(label(width - 56, y, str(stars), colors["figure"], 15, 0.2))
     parts.append("</svg>")
     return "\n".join(parts)
 
