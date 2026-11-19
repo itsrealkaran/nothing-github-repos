@@ -1,39 +1,51 @@
-"""Public repository card. Five Nothing modes. Private names stay off the card."""
+"""Public repository card for any GitHub username."""
 
-import json
+import sys
 from pathlib import Path
 
 from frame import dots, label, open_svg
-from nothing import MODES, theme
+from github_user import public_repos
+from nothing import MODES, SCALE, SIZES, theme
 
 ROOT = Path(__file__).resolve().parent
 
 
-def render(mode, data):
+def render(mode, size, data):
+    scale = SCALE[size]
     colors = theme(mode)
     rows = data["repos"]
-    height = 78 + len(rows) * 32 + 36
-    name, _ = dots("REPOS", 46, 22, colors["fg"], scale=2.2)
-    parts = [
-        open_svg(mode, 640, height, "Public repositories by stars"),
-        name,
-    ]
+    width = int(640 * scale)
+    height = int((88 + len(rows) * 34 + 36) * scale)
+
+    def n(value):
+        return round(value * scale, 1)
+
+    name, _ = dots("REPOS", n(46), n(22), colors["fg"], scale=2.2 * scale)
+    parts = [open_svg(mode, width, height, f"{data['login']} repositories"), name]
     for index, (repo, stars) in enumerate(rows):
-        y = 96 + index * 32
-        parts.append(label(28, y, repo, colors["fg"], 16, 0.2))
-        parts.append(label(520, y, str(stars), colors["figure"], 16, 0.4))
-    parts.append(label(28, height - 18, "Public repositories", colors["muted"], 12, 0.8))
+        y = n(100 + index * 34)
+        parts.append(label(n(28), y, repo, colors["fg"], n(16), 0.2))
+        parts.append(label(width - n(48), y, str(stars), colors["figure"], n(16), 0.4))
+    parts.append(label(n(28), height - n(18), f"@{data['login']} · public repositories", colors["muted"], n(12), 0.6))
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def main():
-    data = json.loads((ROOT / "sample.json").read_text())
-    out = ROOT / "dist"
-    out.mkdir(exist_ok=True)
+    login = sys.argv[1] if len(sys.argv) > 1 else "itsrealkaran"
+    data = public_repos(login)
+    data["login"] = login
+    out = ROOT / "dist" / login
+    out.mkdir(parents=True, exist_ok=True)
+    lines = [f"# {login}", "", "Username, mode, and size.", ""]
     for mode in MODES:
-        (out / f"{mode}.svg").write_text(render(mode, data))
-        print(mode)
+        lines += [f"## {mode}", ""]
+        for size in SIZES:
+            filename = f"{mode}-{size}.svg"
+            (out / filename).write_text(render(mode, size, data))
+            lines += [f"### {size}", "", f"![{mode} {size}](dist/{login}/{filename})", ""]
+            print(login, mode, size)
+    (ROOT / "DUMMY.md").write_text("\n".join(lines))
 
 
 if __name__ == "__main__":
