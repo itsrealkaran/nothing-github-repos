@@ -1,0 +1,24 @@
+{
+  "repos": [
+    [
+      "eth-date",
+      3
+    ],
+    [
+      "tokenizee",
+      2
+    ],
+    [
+      "kapsul-npm",
+      2
+    ],
+    [
+      "move-arcade",
+      1
+    ],
+    [
+      "whack-a-penguin",
+      1
+    ]
+  ]
+}
