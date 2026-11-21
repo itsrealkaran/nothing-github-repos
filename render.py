@@ -18,7 +18,7 @@ def render(mode, size, data, border=True):
         return _compact(mode, colors, data, border)
     if size == "wide":
         return _list(mode, colors, data, 896, True, border)
-    return _list(mode, colors, data, 440, False, border)
+    return _list(mode, colors, data, 408, False, border)
 
 
 def _mini(mode, colors, data, border):
