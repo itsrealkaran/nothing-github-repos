@@ -51,7 +51,7 @@ The title is a dot grid. Labels are monospace.
 | --- | --- | --- |
 | `mini` | 220×148 | The top repository and its stars. |
 | `compact` | 495×132 | The top repository and the login. |
-| `regular` | 440px wide | The list, with a star count on each row. Default. |
+| `regular` | 408px wide | The list, with a star count on each row. Default. |
 | `wide` | 896px wide | The same list, each row with a star bar. |
 
 The files in `dist/` use the theme name, then the size: `classic-regular.svg`.

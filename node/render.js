@@ -9,7 +9,7 @@ function render(mode, size, data, border = true) {
   if (size === "mini") return mini(mode, colors, data, border);
   if (size === "compact") return compact(mode, colors, data, border);
   if (size === "wide") return list(mode, colors, data, 896, true, border);
-  return list(mode, colors, data, 440, false, border);
+  return list(mode, colors, data, 408, false, border);
 }
 
 function mini(mode, colors, data, border) {
