@@ -10,22 +10,22 @@ from nothing import MODES, SIZES, theme
 ROOT = Path(__file__).resolve().parent
 
 
-def render(mode, size, data):
+def render(mode, size, data, border=True):
     colors = theme(mode)
     if size == "mini":
-        return _mini(mode, colors, data)
+        return _mini(mode, colors, data, border)
     if size == "compact":
-        return _compact(mode, colors, data)
+        return _compact(mode, colors, data, border)
     if size == "wide":
-        return _list(mode, colors, data, 896, True)
-    return _list(mode, colors, data, 495, False)
+        return _list(mode, colors, data, 896, True, border)
+    return _list(mode, colors, data, 440, False, border)
 
 
-def _mini(mode, colors, data):
+def _mini(mode, colors, data, border):
     repo, stars = data["repos"][0]
     name, _ = dots("REPOS", 28, 12, colors["fg"], scale=1.15)
     return "\n".join([
-        open_svg(mode, 220, 148, f"{data['login']} repositories", mark=6, margin=14),
+        open_svg(mode, 220, 148, f"{data['login']} repositories", mark=6, margin=14, border=border),
         name,
         label(16, 100, repo, colors["fg"], 16, 0),
         label(16, 124, f"{stars} stars", colors["muted"], 12, 0.2),
@@ -33,11 +33,11 @@ def _mini(mode, colors, data):
     ])
 
 
-def _compact(mode, colors, data):
+def _compact(mode, colors, data, border):
     repo, stars = data["repos"][0]
     name, _ = dots("REPOS", 40, 16, colors["fg"], scale=1.8)
     return "\n".join([
-        open_svg(mode, 495, 132, f"{data['login']} repositories"),
+        open_svg(mode, 495, 132, f"{data['login']} repositories", border=border),
         name,
         label(20, 96, repo, colors["fg"], 22, 0),
         label(20, 118, f"{stars} stars · @{data['login']}", colors["muted"], 13, 0.2),
@@ -45,11 +45,11 @@ def _compact(mode, colors, data):
     ])
 
 
-def _list(mode, colors, data, width, bars):
+def _list(mode, colors, data, width, bars, border):
     rows = data["repos"]
     height = 72 + len(rows) * 30 + 24
     name, _ = dots("REPOS", 40, 16, colors["fg"], scale=1.8)
-    parts = [open_svg(mode, width, height, f"{data['login']} repositories"), name]
+    parts = [open_svg(mode, width, height, f"{data['login']} repositories", border=border), name]
     peak = max(stars for _, stars in rows) or 1
     for index, (repo, stars) in enumerate(rows):
         y = 78 + index * 30

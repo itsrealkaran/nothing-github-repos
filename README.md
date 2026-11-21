@@ -28,7 +28,7 @@ https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran
 ![repos](https://github.com/itsrealkaran/nothing-github-repos?username=itsrealkaran)
 ```
 
-Leave `theme` and `size` off for the classic regular card. An unknown username, theme, or size still returns an SVG, so the image slot in a README stays intact.
+Leave `theme` and `size` off for the classic regular card. It has a hairline border and a small corner. An unknown username, theme, or size still returns an SVG, so the image slot in a README stays intact.
 
 ## Themes
 
@@ -51,7 +51,7 @@ The title is a dot grid. Labels are monospace.
 | --- | --- | --- |
 | `mini` | 220×148 | The top repository and its stars. |
 | `compact` | 495×132 | The top repository and the login. |
-| `regular` | 495px wide | The list, with a star count on each row. Default. |
+| `regular` | 440px wide | The list, with a star count on each row. Default. |
 | `wide` | 896px wide | The same list, each row with a star bar. |
 
 The files in `dist/` use the theme name, then the size: `classic-regular.svg`.
@@ -63,6 +63,7 @@ The files in `dist/` use the theme name, then the size: `classic-regular.svg`.
 | `username` | yes |  | GitHub login. `user` is the same parameter. |
 | `theme` | no | `classic` | One of the themes above. |
 | `size` | no | `regular` | One of the sizes above. |
+| `border` | no | `1` | `0` removes the border and uses the rounder corner. |
 
 ## Examples
 
